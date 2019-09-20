@@ -1,11 +1,87 @@
+* {
+	box-sizing: border-box;
+    transition: all .1s ease-in;
+    
+}
 body {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+	min-height: 100vh;   
+}
+
+header {
+    padding: 30px 0;
+    width: 90%;
 
 }
-.search-field {
+form {
+	width: auto;
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+}
+input {
+    width: 90%;
+    height: 100%;
+    font-size: 30px;
+    border: 0;
+    background: transparent;
+	color: #ec5a62;
+	font-weight: bold;
+	border: 0;
+	font-size: 95px;
+    outline:none;
+}
+input::placeholder {
+    color: #d7d7d7;
+  }
+  
+button {
+    background-image: url(favicon.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    opacity: .7;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+button, input {
+	vertical-align: middle;
+	/* outline: 2px solid red; */
+}
+
+main {
+    width: 90%;
+    max-width: 1300px;
+}
+.top-search {
+    display: inline;
+    
+}
+
+.main-left {
+    width: 30%;
+    min-width: 200px;
+    display: inline-block;
+    border: 20px solid red;
+    padding: 10px;
 
 }
-.search-bt {
-    background-image: url ('./img/magnifier.svg') no-repeat;
+.main-center {
+    width: 30%;
+    min-width: 200px;
+    border: 1px solid red;
 }
 
-url ('/image/btn.png') no-repeat;
+.main-right {
+    width: 30%;
+    min-width: 200px;
+    border: 1px solid red;
+}
