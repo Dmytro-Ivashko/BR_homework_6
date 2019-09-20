@@ -15,7 +15,7 @@ body {
 header {
     padding: 30px 0;
     width: 90%;
-
+    margin: 0 auto;
 }
 form {
 	width: auto;
@@ -57,35 +57,58 @@ button, input {
 }
 
 main {
-    width: 90%;
+    width: 100%;
     max-width: 1300px;
     display: flex;
     margin: 0 auto;
 }
 
-#main-left {
-    width: 30%;
-    border: 1px solid red;
-    display: block;
-
-}
-#main-center {
-    width: 30%;
-    min-width: 200px;     
-    border: 1px solid red;
-}
-
-#main-right {
+.main-left {
     width: 30%;
     min-width: 200px;
-    border: 1px solid red;
+
+}
+.main-center {
+    width: 30%;
+    min-width: 200px;
+}
+
+.main-right {
+    width: 30%;
+    min-width: 200px;
+}
+h2{
+	font-size: 16px;
+	color: #c2c2c2;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
 }
 
 li {
-	font-size: 25px;
-	display: inline-block;
+	font-size: 0.85em;
+	display: block;
 	width: 100%;
-	border: 2px solid white;
-	text-align: center;
-	padding: 15px 10px;
+	border: 12px;
+    text-align: left;
+    background-color: #ebebeb;
+    padding: 12 12 12 12;
+    margin: 4.8px;
+}
+li:hover {
+    background-color: #c2c2c2;
+}
+img {
+    margin: 0;
+    border-radius: 100%;
+}
+img, span {
+	vertical-align: middle;
 }
